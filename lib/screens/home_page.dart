@@ -60,8 +60,8 @@ class _HomePageState extends State<HomePage> {
                           const SizedBox(width: 4),
                           Text(
                             pomodoroController.type == TimeType.focus
-                                ? 'Focus'
-                                : 'Relax',
+                                ? 'Foco'
+                                : 'Pausa',
                             style: TextStyle(
                               fontSize: 18,
                               color: constants.blue3,
