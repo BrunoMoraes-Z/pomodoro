@@ -80,11 +80,11 @@ class _HomePageState extends State<HomePage> {
                 // Body
                 SizedBox(
                   width: double.infinity,
-                  height: 420,
+                  height: 340,
                   child: DefaultTextStyle(
                     maxLines: 1,
                     style: TextStyle(
-                      fontSize: 210,
+                      fontSize: 160,
                       fontWeight: FontWeight.w700,
                       color: constants.blue3,
                     ),
@@ -96,7 +96,7 @@ class _HomePageState extends State<HomePage> {
                           children: [
                             Text(pomodoroController.getMinutes()),
                             Positioned(
-                              top: 180,
+                              top: 160,
                               child: Text(pomodoroController.getSeconds()),
                             ),
                           ],
@@ -191,9 +191,9 @@ class _HomePageState extends State<HomePage> {
                 )
               ],
             ),
-          ),  
+          ),
         ),
-      )
+      ),
     );
   }
 }
